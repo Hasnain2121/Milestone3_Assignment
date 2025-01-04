@@ -45,13 +45,13 @@ export default function CommentSection() {
             placeholder="Your Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full px-4 py-2 bg-white border  text-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 bg-white border  text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <textarea
             placeholder="Your Comment"
             value={comment}
             onChange={(e) => setComment(e.target.value)}
-            className="w-full px-4 py-2 bg-white border  text-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 bg-white border  text-black rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             type="submit"
